@@ -2,6 +2,7 @@
   /* border: 1px solid #dadde1; */
   /* font-family: Arial, sans-serif; */
   font-family: "Ubuntu", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   padding: 16px;
   margin: 30px auto;
   max-width: 600px;
@@ -56,4 +57,8 @@
 .Weather .btn {
   background-color: #1dbcc5;
   border: none;
+}
+
+.Weather .city-info {
+  text-align: center;
 }
