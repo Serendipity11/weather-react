@@ -5,15 +5,17 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="New York" />
-        <footer>
-          This project is
-          <a href="https://github.com/Serendipity11/weather-react">
-            {" "}
-            open-sourced on GitHub
-          </a>
-        </footer>
+        <div className="box">
+          <Weather defaultCity="New York" />
+        </div>
       </div>
+      <footer>
+        This project is made by ToriS and
+        <a href="https://github.com/Serendipity11/weather-react">
+          {" "}
+          open-sourced on GitHub
+        </a>
+      </footer>
     </div>
   );
 }
