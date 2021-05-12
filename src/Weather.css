@@ -57,6 +57,9 @@
 .Weather .btn {
   background-color: #1dbcc5;
   border: none;
+  background: transparent;
+  font-size: 20px;
+  color: white;
 }
 
 .Weather .city-info {
