@@ -57,7 +57,7 @@
 .Weather .btn {
   background-color: #1dbcc5;
   border: none;
-  background: transparent;
+  /* background: transparent; */
 
   color: white;
 }
