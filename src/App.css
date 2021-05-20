@@ -1,5 +1,6 @@
 * {
   font-family: "Ubuntu", sans-serif;
+  color: darkgray;
 }
 .App {
   max-width: 600px;
@@ -15,9 +16,9 @@
 body {
   /* background-image: url("Vorderrhein.png"); */
   background-image: url("immo-unsplash.jpg");
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 200%;
   height: 90vh;
 }
 .box {
