@@ -11,7 +11,11 @@ function App() {
       </div>
       <footer>
         This project is made by ToriS and
-        <a href="https://github.com/Serendipity11/weather-react">
+        <a
+          href="https://github.com/Serendipity11/weather-react"
+          target="blank"
+          rel="noopener norefferer"
+        >
           {" "}
           open-sourced on GitHub
         </a>
