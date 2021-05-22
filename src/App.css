@@ -1,7 +1,7 @@
 * {
   /* font-family: "Ubuntu", sans-serif; */
-  font-family: "Poppins", sans-serif;
-  color: black;
+  /* font-family: "Poppins", sans-serif; */
+  color: #19334d;
 }
 .App {
   max-width: 600px;
@@ -21,6 +21,7 @@ body {
   background-repeat: no-repeat;
   background-size: 300%;
   height: 90vh;
+  /* font-family: "Poppins", sans-serif !important; */
 }
 .box {
   padding-top: 8px;

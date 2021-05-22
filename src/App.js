@@ -12,6 +12,7 @@ function App() {
       <footer>
         This project is made by ToriS and
         <a
+          className="github"
           href="https://github.com/Serendipity11/weather-react"
           target="blank"
           rel="noopener norefferer"

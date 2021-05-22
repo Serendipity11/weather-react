@@ -11,6 +11,12 @@
   color: rgb(135, 135, 135); */
   height: auto;
 }
+.github {
+  color: #8ac3d0;
+}
+.github:hover {
+  color: #19334d;
+}
 
 .Weather form {
   margin-bottom: 20px;
@@ -38,7 +44,7 @@
 }
 
 .Weather .temperature {
-  color: black;
+  color: #19334d;
   font-size: bold;
   font-size: 64px;
   font-weight: 400;
@@ -56,12 +62,27 @@
 }
 
 .Weather .btn {
-  background-color: lightgray;
+  margin-left: 0;
+  background-color: #19334d;
   border: none;
   /* background: transparent; */
   color: white;
+  border-radius: 20px;
 }
-
+.button {
+  padding-left: 6px;
+}
+.input {
+  padding-right: 0 !important;
+  color: #19334d !important;
+}
+.Weather .search {
+  margin-right: 0px;
+  border-radius: 20px;
+  color: #19334d;
+  border: none;
+  background-color: rgb(235, 240, 245);
+}
 .Weather .city-info {
   margin-top: 3rem;
   text-align: center;
