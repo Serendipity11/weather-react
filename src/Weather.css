@@ -1,23 +1,24 @@
 .Weather {
   /* border: 1px solid #dadde1; */
   /* font-family: Arial, sans-serif; */
-  font-family: "Ubuntu", sans-serif;
-  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Ubuntu", sans-serif; */
+  font-family: "Poppins", sans-serif;
   padding: 16px;
+  padding-bottom: 20;
   margin: 30px auto;
-  max-width: 600px;
+  /* max-width: 600px; */
   /* border-radius: 4px;
   color: rgb(135, 135, 135); */
-  height: 60vh;
+  height: auto;
 }
 
 .Weather form {
   margin-bottom: 20px;
 }
 .Weather h1 {
-  font-size: 24px;
+  font-size: 46px;
   font-weight: 100;
-  margin: 20px 0 0 0;
+  margin: 40px 0 0 0;
   line-height: 29px;
 }
 .Weather ul {
@@ -58,10 +59,15 @@
   background-color: lightgray;
   border: none;
   /* background: transparent; */
-
   color: white;
 }
 
 .Weather .city-info {
+  margin-top: 3rem;
   text-align: center;
+  font-size: 40px;
+}
+
+.Weather .date {
+  font-size: 12px;
 }

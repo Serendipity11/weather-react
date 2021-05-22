@@ -1,6 +1,7 @@
 * {
-  font-family: "Ubuntu", sans-serif;
-  color: darkgray;
+  /* font-family: "Ubuntu", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  color: black;
 }
 .App {
   max-width: 600px;
@@ -15,21 +16,31 @@
 }
 body {
   /* background-image: url("Vorderrhein.png"); */
-  background-image: url("immo-unsplash.jpg");
+  /* background-image: url("immo-unsplash.jpg"); */
   background-position: left;
   background-repeat: no-repeat;
-  background-size: 200%;
+  background-size: 300%;
   height: 90vh;
 }
 .box {
-  padding-top: 20px;
+  padding-top: 8px;
+  padding-bottom: 1px;
   padding-right: 15px;
-  margin-top: 80px;
+  padding-left: 15px;
   margin-bottom: 10px;
-  max-width: 800px;
-  /* background-color: lightgray; */
-  background-color: transparent;
+  margin-top: 80px;
+  max-width: 50rem;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  /* background-color: rgb(235, 240, 245); */
   /* border-radius: 50% 20% / 10% 40%; */
   border-radius: 10%;
-  border: 1px solid black;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  /* border: 1px solid black; */
+}
+
+.icon-temp,
+.humidity-info,
+.temp-info {
+  text-align: center !important;
 }

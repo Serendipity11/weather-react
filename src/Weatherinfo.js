@@ -9,15 +9,15 @@ export default function WeatherInfo(props) {
       <div className="city-info">
         <h1 className="text-capitalize city">{props.data.city}</h1>
         <ul>
-          <li>
+          <li className="date mb-3">
             <FormattedDate date={props.data.date} />
           </li>
-          <li className="text-capitalize">{props.data.description}</li>
+          {/* <li className="text-capitalize">{props.data.description}</li> */}
         </ul>
       </div>
 
-      <div className="row mt-3">
-        <div className="col-6">
+      <div className="row mt-3 temp-info">
+        <div className="col-6 mt-3 icon-temp">
           <div className="clearfix">
             <div className="float-left">
               <WeatherIcon code={props.data.icon} size={46} />
@@ -28,7 +28,7 @@ export default function WeatherInfo(props) {
             </div>
           </div>{" "}
         </div>
-        <div className="col-6">
+        <div className="col-6 mt-3 humidity-info">
           <ul>
             <li>Precipitation: 15%</li>
             <li>Humidity: {props.data.humidity}%</li>
