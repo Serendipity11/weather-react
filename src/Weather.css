@@ -36,6 +36,7 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
+  color: #8c98a6;
 }
 .Weather canvas {
   display: inline-block;
@@ -66,8 +67,12 @@
   background-color: #19334d;
   border: none;
   /* background: transparent; */
-  color: white;
+  color: #fdfefe;
   border-radius: 20px;
+}
+.Weather .btn:hover {
+  color: #fdfefe;
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
 }
 .button {
   padding-left: 6px;

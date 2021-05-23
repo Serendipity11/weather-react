@@ -3,6 +3,7 @@
   /* font-family: "Poppins", sans-serif; */
   color: #19334d;
 }
+
 .App {
   max-width: 600px;
   margin: 0 auto;
@@ -14,12 +15,14 @@
   display: block;
   text-align: center;
 }
+
 body {
+  background-color: #ebf0f5 !important;
   /* background-image: url("Vorderrhein.png"); */
   /* background-image: url("immo-unsplash.jpg"); */
-  background-position: left;
+  /* background-position: left;
   background-repeat: no-repeat;
-  background-size: 300%;
+  background-size: 300%; */
   height: 90vh;
   /* font-family: "Poppins", sans-serif !important; */
 }
@@ -32,7 +35,7 @@ body {
   margin-top: 80px;
   max-width: 50rem;
   height: auto;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.9);
   /* background-color: rgb(235, 240, 245); */
   /* border-radius: 50% 20% / 10% 40%; */
   border-radius: 10%;
