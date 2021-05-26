@@ -18,13 +18,13 @@
 
 body {
   background-color: #ebf0f5 !important;
-  /* background-image: url("Vorderrhein.png"); */
+  background-image: url("Vorderrhein.png");
   /* background-image: url("immo-unsplash.jpg"); */
   /* background-position: left;
-  background-repeat: no-repeat;
-  background-size: 300%; */
+  background-repeat: no-repeat;*/
+  background-size: 400%;
+  background-position: left;
   height: 90vh;
-  /* font-family: "Poppins", sans-serif !important; */
 }
 .box {
   padding-top: 8px;
@@ -33,14 +33,13 @@ body {
   padding-left: 15px;
   margin-bottom: 10px;
   margin-top: 80px;
-  max-width: 50rem;
+  max-width: 60rem;
   height: auto;
   background-color: rgba(255, 255, 255, 0.9);
   /* background-color: rgb(235, 240, 245); */
   /* border-radius: 50% 20% / 10% 40%; */
   border-radius: 10%;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-  /* border: 1px solid black; */
 }
 
 .icon-temp,
