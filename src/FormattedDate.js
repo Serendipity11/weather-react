@@ -16,13 +16,11 @@ export default function FormattedDate(props) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
-  if (hours < 10) {
-    hours = `0${minutes}`;
+  while (props) {
+    return (
+      <div className="mt-3">
+        {day} {hours}:{minutes}
+      </div>
+    );
   }
-
-  return (
-    <div className="mt-3">
-      {day} {hours}:{minutes}
-    </div>
-  );
 }
