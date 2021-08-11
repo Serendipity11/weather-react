@@ -3,16 +3,14 @@
   /* font-family: Arial, sans-serif; */
   /* font-family: "Ubuntu", sans-serif; */
   font-family: "Poppins", sans-serif;
-  padding: 16px;
+  padding: 30px;
   padding-bottom: 20;
   margin: 30px auto;
-  /* max-width: 600px; */
-  /* border-radius: 4px;
-  color: rgb(135, 135, 135); */
   height: auto;
 }
 .github {
-  color: #8ac3d0;
+  color: #19334d;
+  text-decoration-line: underline;
 }
 .github:hover {
   color: #19334d;
