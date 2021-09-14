@@ -16,6 +16,7 @@
   text-align: center;
   padding-top: 100px;
   padding-bottom: 10px;
+  font-family: monospace;
 }
 
 body {
@@ -26,7 +27,6 @@ body {
   /* background-position: left;
   background-repeat: no-repeat; */
   background-repeat: no-repeat;
-
   background-position: center;
   background-size: cover;
   width: 100%;
