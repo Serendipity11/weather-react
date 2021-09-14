@@ -17,14 +17,15 @@
 }
 
 body {
-  background-color: #ebf0f5 !important;
-  background-image: url("Vorderrhein.png");
+  background-color: whitesmoke !important;
+  /* background-image: url("Vorderrhein.png"); */
+  background-image: url(https://simplemaps.com/static/demos/resources/svg-library/svgs/world.svg);
   /* background-image: url("immo-unsplash.jpg"); */
   /* background-position: left;
-  background-repeat: no-repeat;*/
-  background-size: 400%;
-  background-position: left;
-  height: 90vh;
+  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .box {
   padding-top: 8px;
@@ -35,7 +36,7 @@ body {
   margin-top: 80px;
   max-width: 60rem;
   height: auto;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.6);
   /* background-color: rgb(235, 240, 245); */
   /* border-radius: 50% 20% / 10% 40%; */
   border-radius: 10%;
