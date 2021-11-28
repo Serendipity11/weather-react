@@ -65,3 +65,10 @@ body {
 .temp-info {
   text-align: center !important;
 }
+
+@media (max-width: 375px) {
+  .App footer {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+}

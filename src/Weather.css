@@ -98,3 +98,7 @@
 .Weather .date {
   font-size: 12px;
 }
+
+/* Responsive  design*/
+@media (max-width: 375px) {
+}
