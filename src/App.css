@@ -68,7 +68,10 @@ body {
 
 @media (max-width: 375px) {
   .App footer {
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 10px;
+  }
+  .box {
+    padding-top: 70px;
   }
 }
