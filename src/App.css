@@ -19,6 +19,13 @@
   font-family: monospace;
 }
 
+.App footer a {
+  text-decoration: none;
+}
+
+.App footer a:hover {
+  text-decoration: underline;
+}
 body {
   background-color: whitesmoke !important;
   /* background-image: url("Vorderrhein.png"); */
