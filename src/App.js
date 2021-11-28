@@ -9,15 +9,15 @@ function App() {
           <Weather defaultCity="New York" />
         </div>
         <footer>
-          This project is made by ToriS
-          {/* <a
+          <a
             className="github"
             href="https://github.com/Serendipity11/weather-react"
             target="blank"
             rel="noopener norefferer"
           >
-            open-sourced on GitHub
-          </a> */}
+            Open source code
+          </a>{" "}
+          by ToriS
         </footer>
       </div>
     </div>
