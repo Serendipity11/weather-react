@@ -19,7 +19,8 @@ export default function FormattedDate(props) {
   while (props) {
     return (
       <div className="mt-3">
-        {day} {hours}:{minutes}
+        {/* {day} {hours}:{minutes} */}
+        {day}
       </div>
     );
   }
