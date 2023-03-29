@@ -1,12 +1,10 @@
-# Getting Started with Create React App
 
-# My Awesome Project
-The React JS weather app is a sleek and user-friendly application that provides up-to-date weather information including wind and precipitation data, as well as a forecast for the next 5 days. 
+# Weather App
+Weather app is a sleek and user-friendly application that provides up-to-date weather information including wind and precipitation data, as well as a forecast for the next 5 days. 
 
 <a href="https://world-weather-react.netlify.app/" target="_blank"></a>
 <a href="https://world-weather-react.netlify.app/" target="_blank"><img src="https://github.com/Serendipity11/creative-content/blob/main/weather-react.png/></a>
 
-## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, ReactJS, API
 
